@@ -1,0 +1,30 @@
+/** @format */
+
+{
+  //세미콜론 안붙임
+  "semi": false,
+
+  //작은 따옴표 사용
+
+  "singleQuote": true,
+  //탭 눌럿을때 2칸
+
+  "tabWidth": 2,
+
+  // 마지막 요소 뒤에 쉼표 추가 (ES5 호환: 객체, 배열 등)
+
+  "trailingComma": "es5",
+
+  //한줄 최대 100자
+  "printWidth": 100,
+  // 객체 중괄호 안에 띄어쓰기 허용: { foo: bar } ✅
+
+  "bracketSpacing": true,
+
+  // 화살표 함수 매개변수 괄호 항상 사용: (x) => {}
+
+  "arrowParens": "always",
+  // 운영체제에 맞게 줄바꿈 방식 자동 설정
+
+  "endOfLine": "auto",
+}
