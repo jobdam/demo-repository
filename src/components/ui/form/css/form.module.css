@@ -1,0 +1,9 @@
+/** @format */
+
+.form-item > * + * {
+  margin-top: 8px; /* Tailwind의 space-y-2 와 동일 */
+}
+
+.form {
+  margin-top: 1.5rem;
+}

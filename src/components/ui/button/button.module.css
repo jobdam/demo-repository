@@ -1,0 +1,97 @@
+/** @format */
+
+.base {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 1px #888;
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+/* === Variants === */
+.default {
+  background-color: #0070f3;
+  color: white;
+}
+
+.default:hover {
+  background-color: #0059c1;
+}
+
+.destructive {
+  background-color: red;
+  color: white;
+}
+
+.destructive:hover {
+  background-color: darkred;
+}
+
+.outline {
+  border: 1px solid #ccc;
+  background: white;
+  color: #222;
+}
+
+.outline:hover {
+  background-color: #f5f5f5;
+}
+
+.secondary {
+  background-color: #eee;
+  color: #222;
+}
+
+.secondary:hover {
+  background-color: #ddd;
+}
+
+.ghost {
+  background: transparent;
+  color: #222;
+}
+
+.ghost:hover {
+  background-color: #f0f0f0;
+}
+
+.link {
+  background: none;
+  color: #0070f3;
+  text-decoration: underline;
+}
+
+/* === Sizes === */
+.size-default {
+  height: 36px;
+  padding: 0 16px;
+}
+
+.size-sm {
+  height: 32px;
+  font-size: 12px;
+  padding: 0 12px;
+}
+
+.size-lg {
+  height: 40px;
+  padding: 0 24px;
+}
+
+.size-icon {
+  width: 36px;
+  height: 36px;
+}

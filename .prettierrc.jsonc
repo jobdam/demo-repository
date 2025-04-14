@@ -27,4 +27,5 @@
   // 운영체제에 맞게 줄바꿈 방식 자동 설정
 
   "endOfLine": "auto",
+  "insertPragma": false,
 }
